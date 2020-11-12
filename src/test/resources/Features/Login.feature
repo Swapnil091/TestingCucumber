@@ -1,6 +1,6 @@
 Feature: Test Login functionality
 
-@smoke @sanity
+@Smoke @sanity
 Scenario Outline: Test Valid functionality
 Given user should be on login page
 When user enters valid id "<Username>" and password "<Password>"
