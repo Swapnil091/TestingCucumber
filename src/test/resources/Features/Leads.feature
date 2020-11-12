@@ -7,7 +7,7 @@ When user enters valid id and password
 And click on login button
 Then user should navigate to home page
 
-@smoke
+@Smoke
 Scenario Outline: Test Valid lead functionality
 Given user click on new lead
 Then user enters fname and lname and click on save button
